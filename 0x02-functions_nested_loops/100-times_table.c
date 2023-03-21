@@ -4,8 +4,6 @@
  * @n: input
  * Return: Always 0 (Success)
  */
-int main(void)
-{
 void print_times_table(int n)
 {
 	int i, j, k;
@@ -44,5 +42,3 @@ void print_times_table(int n)
 		_putchar('n');
 	}
 }
-}
-
