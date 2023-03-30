@@ -1,4 +1,5 @@
 #include "main.h"
+#include "stdio.h"
 /**
  * print_buffer - add 2 strings.
  * @b: string1.
@@ -23,7 +24,7 @@ void print_buffer(char *b, int size)
 		for  (i = 0; i < 10; i++)
 		{
 			if (i < j)
-				printf("%02x", *(b +o + i));
+				printf("%02x", *(b + o + i));
 			else
 				printf("  ");
 			if (i % 2)
@@ -31,7 +32,7 @@ void print_buffer(char *b, int size)
 				printf(" ");
 			}
 		}
-		for (i - 0; i < j; i++)
+		for (i = 0; i < j; i++)
 		{
 			int c = *(b + o + i);
 
@@ -41,7 +42,7 @@ void print_buffer(char *b, int size)
 			}
 			printf("%c", c);
 		}
-		printf("\n")
+		printf("\n");
 			o += 10;
 	}
 }
