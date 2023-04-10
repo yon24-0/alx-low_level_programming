@@ -3,8 +3,7 @@
 #include <stdlib.h>
 
 /**
- * create array - create array of size size and assign char 
-c
+ * create array - create array of size size and assign char c
  * @size: the size of array
  * @c: char to assign
  * Description: create array of size size and assign char c
@@ -12,7 +11,7 @@ c
  */
 char *create_array(unsigned int size, char c)
 {
-	char *str;
+	char *array = NULL;
 	unsigned int i;
 
 	str = malloc(sizeof(char) * size);
