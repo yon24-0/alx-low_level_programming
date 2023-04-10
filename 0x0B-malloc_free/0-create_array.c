@@ -3,9 +3,11 @@
 #include <stdlib.h>
 
 /**
+ * create array - create array of size size and assign char c
  * simple_print_buffer - prints buffer in hexa
  * @buffer: the address of memory to print
- * @size: the size of the memory to print
+ * @size: the size of array
+ * @c: char to assign
  * Description: create array of size size and assign char c
  * Return: Nothing.
  */
