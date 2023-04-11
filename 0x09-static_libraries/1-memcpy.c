@@ -1,19 +1,11 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include <ctype.h>
+#include <string.h>
 
-/**
- * _memset - prints buffer in hexa
- * @s: buffer
- * @b: write
- * @n: size
- * Return: Nothing.
- */
-char *_memset(char *s, char b, unsigned int n)
+
+char *_memcpy(char *src, char *dest, unsigned int n)
 {
-	unsigned int i;
-
-	for (i = 0; i < n; i++)
-	{
-		*(s + i) = b;
-	}
-	return (s);
+	return memcpy(dest, src, n);
 }
