@@ -1,4 +1,7 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
 /**
  * _isalpha - a function that checks for alphabetic character
  * @c: single letter input
